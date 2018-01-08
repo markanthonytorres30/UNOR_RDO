@@ -16,6 +16,14 @@ def research(request):
     return render(
         request,
         'research.html',
-        context={None}
+        context={'question':hahahah}
     )
+
+def authors(request):
+    return render(
+        request,
+        'authors.html',
+        context=None
+    )
+
 # Create your views here.

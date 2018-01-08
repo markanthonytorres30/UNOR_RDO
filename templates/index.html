@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="./css/style.css">
+{% load static %}
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
   <style>
   
   @media(max-width: 600px){
@@ -33,14 +34,14 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			</button>
-
-			<a class="navbar-brand" href="#"><img src="./img/w3newbie.png"></a>
+{% load static %}
+			<a class="navbar-brand" href="#"><img src="{% static 'home/img/w3newbie.png' %}"></a>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
 				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="{% url 'research' %}">Research</a></li>
-				<li><a href="authors.html">Authors</a></li>
+				<li><a href="{% url 'authors' %}">Research</a></li>
+				<li><a href="/home/authors/">Authors</a></li>
 				<li><a href="#">Editorial Policies</a></li>
 				<li><a href="#">About</a></li>
 			</ul>
@@ -57,7 +58,8 @@
 
 	<div class="carousel-inner" role="listbox">
 		<div class="item active"> 
-			<img src = "./img/book.png"/>
+{% load static %}
+			<img src = "{% static 'img/book.png' %}"/>
 			<div class="carousel-caption">
 				<h1 style ="color:black;">Discover high quality research from outstanding authors.</h1>
 				<br/>
@@ -65,10 +67,11 @@
 			</div>
 			</div><!-- end active -->
 			<div class="item">
-				<img src="./img/snow.png">
+{% load static %}
+				<img src="{% static 'img/snow.png' %}">
 			</div>
 			<div class="item">
-				<img src="./img/red.png">
+				<img src= "{% static 'img/red.png' %}">
 			</div>
 	</div>
 	<!-- Start slider controls -->
@@ -128,13 +131,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 		</div>
 
 		<div class ="col-md-6">
-			<img src="./img/bump.jpg" class="img-responsive">
+			<img src= "{% static 'img/bump.jpg' %}" class="img-responsive">
 		</div>
 	</div>
 <div class= "container" style="background-color: blue;">
 	<div class= "row">
 		<div class ="col-md-6">
-			<img src="./img/cup.jpg" class="img-responsive">
+			<img src= "{% static 'img/cup.jpg' %}" class="img-responsive">
 		</div>
 		<div class ="col-md-6">
 			<h4 style ="color: gold; float: right;">Who do we do?</h4>
