@@ -10,4 +10,12 @@ def index(request):
         'index.html',
         context={'question':'hahahah'}
     )
+
+def research(request):
+
+    return render(
+        request,
+        'research.html',
+        context={None}
+    )
 # Create your views here.
