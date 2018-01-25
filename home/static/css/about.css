@@ -1,0 +1,148 @@
+body {
+    color: rgba(12, 38, 80, 0.78);
+    font-family: sans-serif;
+}
+
+#cover {
+    max-width: 100%;
+}
+
+#about {
+    padding: 30px;
+}
+
+#abouth2 {
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+#aboutpar {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+ol {
+    font-size: 25px;
+    color: rgba(12, 38, 80, 0.78);
+}
+
+#chart{
+    width: 70%;
+}
+
+#rdo {
+    width: 130px;
+    border-radius: 50%;
+    height: 140px;
+}
+
+#tele {
+    width: 30px;
+    padding-right: 30px;
+    padding-left: 20px
+}
+
+#msg {
+    width: 30px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: rgba(12, 38, 80, 0.78);
+    cursor: pointer;
+    padding: 18px;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 20px
+}
+
+#accord {
+    margin: 0 auto;
+    padding: 3%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.dropdown{
+    padding-right: 5%;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.container .active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+.navbar {
+    border-radius: 0;
+    background-color: #f2f2f2;
+    padding: 1% 0 0 0;
+    font-size: 1.2em;
+    border: 0;
+}
+
+#header {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.navbar-brand {
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar .navbar-nav .active a, .navbar .navbar-nav .active a:focus, .navbar .navbar-nav .active a:hover {
+    color: #14418F;
+}
+
+.navbar .navbar-nav li a {
+    color: #14418F;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 22px;
+    background-color: #EBB220;
+    margin: 20px;
+    border-radius: 0;
+    border-color: transparent;
+}
+
+.btn:hover {
+    background-color: darkorange;
+    border-radius: 0;
+    border-color: transparent;
+}
+
+.container {
+    margin: 4% auto;
+}
+
+#logo {
+    margin-top: -15px;
+    max-width: 50%;
+}
+
+footer {
+    width: 100%;
+    background-color: #14418F;
+    padding: 3%;
+    color: #FFFFFF;
+}

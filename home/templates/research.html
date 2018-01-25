@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <title>RDO - Research</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="{% static 'img/rdo-icon.png' %}" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/research.css' %}">
+</head>
+<body>
+<nav class = "navbar">
+	<div class ="container-fluid" id="header">
+		<div class="navbar-header">
+            {% load static %}
+			<a class="navbar-brand" href="#"><img id="logo" src="{% static 'img/rdo-logo.png' %}"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="{% url 'index' %}">Home</a></li>
+				<li class="active"><a href="{% url 'research' %}">Researches</a></li>
+				<li><a href="{% url 'authors' %}">Authors</a></li>
+				<li><a href="{% url 'editorial' %}">Editorial Policies</a></li>
+				<li><a href="{% url 'about' %}">About</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<div class = "container text-center">
+    <h2>Researches</h2>
+    <p id="research-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="input-group" id="adv-search">
+                    <input type="text" class="form-control" placeholder="Search for journals" />
+                    <div class="input-group-btn">
+                        <div class="btn-group" role="group">
+                            <div class="dropdown dropdown-lg">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                                <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                    <form class="form-horizontal" role="form">
+                                      <div class="form-group">
+                                        <label for="sort">Sort by</label>
+                                        <select class="form-control">
+                                            <option value="0" selected>Name</option>
+                                            <option value="1">Year</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="contain">College</label>
+                                        <input class="form-control" type="text" />
+                                      </div>
+                                      <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    <hr id="gold">
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Research</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<table class="container" id="researches">
+    {% if researches %}
+    {% for research in researches %}
+
+    <tr>
+        <td><a href="research/{{ research.id }}" data-toggle="modal" data-target="#exampleModalLong"><h4>{{ research.research_title }}</h4></a>
+            <p> <i>{{ research.research_author }}</i></p><hr id="gray">
+        </td>
+    </tr>
+    {% endfor %}
+    {% endif %}
+</table>
+
+<footer>
+	<div class="col-sm-4">Powered by: Team RDO</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="research.html">Research</a></li>
+				<li><a href="authors.html">Authors</a></li>
+				<li><a href="#">Editorial Policies</a></li>
+				<li><a href="{% url 'about' %}">About</a></li>
+			</ul>
+		</div>
+
+</footer>
+
+</body>
+</html>

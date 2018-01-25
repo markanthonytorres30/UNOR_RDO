@@ -1,50 +1,122 @@
 .navbar{
-  	margin-bottom:0;
 	border-radius: 0;
-  	background-color:#f2f2f2;
-  	font-color:#FFF;
-  	padding:1% 0;
+  	background-color: #f2f2f2;
+  	padding: 1% 0 0 0;
   	font-size: 1.2em;
   	border:0;
-  }
-  .navbar-brand{
-  	float:left;
-  	min-height: 55px;
-  	padding:0 15px 5px;
-  }
-  .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
-  	color: #000066;
-  	background-color:#f2f2f2;
-  	
-  }
-  .navbar-inverse .navbar-nav li a{
-  	color:#000066;
-  	font-weight: bold;
-  }
-
-  .carousel-caption{
-  	top:50%;
-  	transform: translateY(-50%);
-  	text-transform: uppercase;
-  }
-
-  .btn{
-  	font-size: :18px;
-  	color:black;
-  	padding: 12px 22px;
-  	background-color:#ffcc00 ;
-  	
-  }
-  .container {
-  	margin: 4% auto;
-  }
-#icon  {
-	max-width: 200px;
-	margin: 1% auto;
+}
+#header{
+	margin: 0 auto;
+	width: 85%;
+}
+.navbar-brand{
+	float:left;
+	min-height: 55px;
+	padding:0 15px 5px;
+}
+.navbar .navbar-nav .active a, .navbar .navbar-nav .active a:focus, .navbar .navbar-nav .active a:hover{
+	color: #14418F;
+}
+.navbar .navbar-nav li a{
+	color:#14418F;
+	font-weight: bold;
+}
+.carousel-caption{
+	top:50%;
+	transform: translateY(-50%);
+	color: #202020;
+}
+.btn{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 12px 22px;
+	background-color: #EBB220;
+	margin: 20px;
+	border-radius: 0;
+	border-color: transparent;
+}
+.btn:hover{
+	background-color: darkorange;
+	border-radius: 0;
+	border-color: transparent;
+}
+.container {
+	margin: 4% auto;
+}
+#logo  {
+	max-width: 50%;
 }
 footer{
-	width:100%;
-	background-color: #f2f2f2;
+	width: 100%;
+	background-color: #14418F;
 	padding: 3%;
-	color:#000066;
+	color: #FFFFFF;
+}
+#overview h2{
+	color: #192E79;
+}
+#overview p{
+	color: gray;
+	font-size: 150%;
+}
+#features{
+	padding: 30px;
+	background-color: #14418F;
+}
+#features .row{
+	margin: 0 auto;
+	width: 85%;
+}
+#features h3{
+	color: #EBB220;
+}
+#features p{
+	color: #FFFFFF;
+}
+.features-desc{
+	margin: 0 auto;
+	width: 85%;
+	text-align: justify;
+}
+#about{
+	padding: 30px;
+	width: 85%;
+}
+#about h3{
+	color: #14418F;
+}
+#about p{
+	color: gray;
+	text-align: justify;
+}
+#about button{
+	float: left;
+}
+#service{
+	background-color: #14418F;
+	padding: 30px;
+}
+#service .row{
+	margin: 0 auto;
+	width: 85%;
+}
+#service h3{
+	float: right;
+	color: #EBB220;
+}
+#service p{
+	color: #FFFFFF;
+	float: right;
+	text-align: justify;
+}
+#service button{
+	float: right;
+}
+#news{
+	margin: 0 auto;
+	padding: 30px;
+	width: 85%;
+}
+#news h2{
+	color: #192E79;
 }
