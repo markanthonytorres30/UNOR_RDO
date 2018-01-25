@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f41f6d27-1e40-415d-80b9-cebd3fd81d66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/static/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/templates/authors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/templates/editorial.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/templates/research.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FrontPage/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FrontPage/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FrontPage/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FrontPage/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FrontPage/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FrontPage/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FrontPage/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/authors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/research.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/UNOR_RDO.iml" afterPath="$PROJECT_DIR$/.idea/UNOR_RDO.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UNOR_RDO/settings.py" afterPath="$PROJECT_DIR$/UNOR_RDO/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UNOR_RDO/urls.py" afterPath="$PROJECT_DIR$/UNOR_RDO/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/admin.py" afterPath="$PROJECT_DIR$/home/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/models.py" afterPath="$PROJECT_DIR$/home/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/static/css/style.css" afterPath="$PROJECT_DIR$/home/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/urls.py" afterPath="$PROJECT_DIR$/home/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/views.py" afterPath="$PROJECT_DIR$/home/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FrontPage/__init__.py" afterPath="$PROJECT_DIR$/home/static/css/author.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FrontPage/migrations/__init__.py" afterPath="$PROJECT_DIR$/home/static/css/research.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/templates/index.html" afterPath="$PROJECT_DIR$/home/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/templates/research.html" afterPath="$PROJECT_DIR$/home/templates/research.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/static/css/about.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -75,13 +49,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authors.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="authors.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home/templates/authors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="101" column="28" lean-forward="false" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+            <state relative-caret-position="272">
+              <caret line="36" column="78" lean-forward="false" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
               <folding>
-                <element signature="e#4123#4130#1#HTML" expanded="true" />
+                <element signature="e#4120#4127#1#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,10 +64,10 @@
       <file leaf-file-name="research.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/research.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="101" column="30" lean-forward="false" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
+            <state relative-caret-position="204">
+              <caret line="37" column="103" lean-forward="false" selection-start-line="37" selection-start-column="103" selection-end-line="37" selection-end-column="103" />
               <folding>
-                <element signature="e#4134#4141#1#HTML" expanded="true" />
+                <element signature="e#4155#4162#1#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/home/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="97" column="39" lean-forward="false" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
+              <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -186,14 +160,14 @@
         <option value="$PROJECT_DIR$/home/urls.py" />
         <option value="$PROJECT_DIR$/home/templates/editorial.html" />
         <option value="$PROJECT_DIR$/home/templates/about.html" />
-        <option value="$PROJECT_DIR$/home/templates/index.html" />
         <option value="$PROJECT_DIR$/FrontPage/models.py" />
         <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/home/admin.py" />
         <option value="$PROJECT_DIR$/home/views.py" />
-        <option value="$PROJECT_DIR$/home/templates/authors.html" />
-        <option value="$PROJECT_DIR$/home/templates/research.html" />
         <option value="$PROJECT_DIR$/home/static/css/about.css" />
+        <option value="$PROJECT_DIR$/home/templates/index.html" />
+        <option value="$PROJECT_DIR$/home/templates/research.html" />
+        <option value="$PROJECT_DIR$/home/templates/authors.html" />
       </list>
     </option>
   </component>
@@ -644,14 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="97" column="39" lean-forward="false" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontPage/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -720,31 +686,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/css/about.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="146" column="0" lean-forward="true" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/research.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="101" column="30" lean-forward="false" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
+        <state relative-caret-position="204">
+          <caret line="37" column="103" lean-forward="false" selection-start-line="37" selection-start-column="103" selection-end-line="37" selection-end-column="103" />
           <folding>
-            <element signature="e#4134#4141#1#HTML" expanded="true" />
+            <element signature="e#4155#4162#1#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/authors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="101" column="28" lean-forward="false" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+        <state relative-caret-position="272">
+          <caret line="36" column="78" lean-forward="false" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
           <folding>
-            <element signature="e#4123#4130#1#HTML" expanded="true" />
+            <element signature="e#4120#4127#1#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/css/about.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
