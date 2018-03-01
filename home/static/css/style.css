@@ -1,18 +1,17 @@
 .navbar{
 	border-radius: 0;
   	background-color: #f2f2f2;
-  	padding: 1% 0 0 0;
+  	padding: 1% 5% 0 0;
   	font-size: 1.2em;
   	border:0;
 }
 #header{
 	margin: 0 auto;
-	width: 85%;
 }
 .navbar-brand{
 	float:left;
 	min-height: 55px;
-	padding:0 15px 5px;
+	padding: 0 0 15px 20%;
 }
 .navbar .navbar-nav .active a, .navbar .navbar-nav .active a:focus, .navbar .navbar-nav .active a:hover{
 	color: #14418F;
@@ -119,4 +118,16 @@ footer{
 }
 #news h2{
 	color: #192E79;
+}
+#login{
+	background-color: #EBB220;
+	border-radius: 0;
+	border-color: transparent;
+	padding: 5px 15px;
+	font-size: 14px;
+	font-weight: bold;
+	float: right;
+	margin-left: 35%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }

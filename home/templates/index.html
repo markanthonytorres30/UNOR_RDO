@@ -23,10 +23,11 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="{% url 'index' %}">Home</a></li>
-                <li><a href="{% url 'research' %}">Researches</a></li>
+                <li><a href="{% url 'research' %}">Articles</a></li>
                 <li><a href="{% url 'authors' %}">Authors</a></li>
                 <li><a href="{% url 'editorial' %}">Editorial Policies</a></li>
                 <li><a href="{% url 'about' %}">About</a></li>
+                <li><button id="login" type="button">LOGIN</button></li>
             </ul>
         </div>
     </div>
@@ -77,12 +78,12 @@
 <div class="container-fluid text-center" id="features">
     <div class="row">
         <div class="col-sm-4">
-            <h3>RESEARCHES</h3>
+            <h3>ARTICLES</h3>
             <p class="features-desc">The academe has traditionally been the primary source of the world's expansion of
                 knowledge and innovations. It promotes research excellence for technological, social, economic,
                 political, and moral advancement anchored on evidence-based findings.</p>
             <a href="{% url 'research' %}">
-                <button type="button" class="btn btn-default"> VIEW JOURNALS</button>
+                <button type="button" class="btn btn-default"> VIEW ARTICLES</button>
             </a>
         </div>
         <div class="col-sm-4">
@@ -175,7 +176,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="research.html">Researches</a></li>
+            <li><a href="research.html">Articles</a></li>
             <li><a href="authors.html">Authors</a></li>
             <li><a href="#">Editorial Policies</a></li>
             <li><a href="#">About</a></li>

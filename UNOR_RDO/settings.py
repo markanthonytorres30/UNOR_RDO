@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'home',
+    'administration',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -55,8 +56,7 @@ ROOT_URLCONF = 'UNOR_RDO.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'home/templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'home/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
