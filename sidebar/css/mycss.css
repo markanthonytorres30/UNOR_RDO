@@ -1,0 +1,47 @@
+#email{
+  margin-left: 43px;
+  width: 325px;
+}
+
+#comment{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#submit{
+  background-color: #ebb220;
+}
+
+.form-group, label{
+  margin-left: 20px;
+}
+
+#submit{
+  margin-right: 130px;
+  border: 0;
+  border-radius: 0 0 0 0;
+}
+
+#sendRqst{
+  background-color: #ebb220;
+  border: 0;
+  border-radius: 0 0 0 0;
+}
+
+#thead{
+  background-color: #14418f;
+  color: white;
+}
+a{
+  font-weight: bold;
+}
+
+body{
+  float: left;
+}
+.review{
+  margin-left: 100px;
+}
+.colors{
+    
+}
