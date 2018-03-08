@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>Reviews</title>
+    <link rel="stylesheet" type="text/css" href="mycss.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="review">
+    <div class="container">
+      <h2>List of Reviews</h2>           
+      <table class="table table-bordered">
+        <thead id="thead">
+          <tr>
+            <th>RO Code</th>
+            <th>Title</th>
+            <th>Reviewer Name</th>
+            <th>Date Sent</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>11111</td>
+            <td><a href="#">Journal review #3</a></td>
+            <td>Clark Canlog</td>
+            <td>December 25, 2017</td>
+            <td>Pending</td>
+          </tr>
+          <tr>
+            <td>11111</td>
+            <td><a href="#">Journal review #2</a></td>
+            <td>Precious Diaz</td>
+            <td>December 25, 2017</td>
+            <td>Pending</td>
+          </tr>
+          <tr>
+            <td>11111</td>
+            <td><a href="#">Journal review #1</a></td>
+            <td>Dece G</td>
+            <td>December 25, 2017</td>
+            <td>Pending</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+        <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" id="sendRqst" data-toggle="modal" data-target="#myModal">Send Request</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-md">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Send review request</h4>
+        </div>
+        <div class="modal-body">
+           <form class="form-inline" action="/action_page.php">
+            <div class="form-group">
+              <label for="email">To:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              <br>
+              <label for="comment">Note:</label>
+              <textarea class="form-control" rows="10" cols="40" id="comment"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" id="submit" data-dismiss="modal">Submit</button>
+        </div>
+      </div>   
+    </div>
+  </div>
+  </div>
+  </body>
+</html>
