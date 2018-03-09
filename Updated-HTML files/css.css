@@ -1,0 +1,52 @@
+.form-group{
+  margin-left: 10px;
+}
+
+.form-group, label{
+  margin-left: 10px;
+}
+
+#submit{
+  margin-right: 130px;
+  border: 0;
+  border-radius: 0 0 0 0;
+  background-color: #ebb220;
+  margin-left: 480px;
+}
+
+#thead{
+  background-color: #14418f;
+  color: white;
+}
+a{
+  font-weight: bold;
+}
+
+body{
+  float: left;
+}
+.listOfJournalTable{
+  margin-left: 100px;
+}
+
+
+#JournTitle{
+  margin-left: 40px;
+  width: 455px;
+}
+
+#course{
+  margin-left: 12px;
+  width: 300px;
+}
+
+#addJournalbtn{
+  margin-left: 110px;
+  background-color: #ebb220;
+  border: 0;
+  border-radius: 0 0 0 0;
+}
+
+#year{
+  width: 100px;
+}
